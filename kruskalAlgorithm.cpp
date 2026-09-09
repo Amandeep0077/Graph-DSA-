@@ -12,9 +12,9 @@ public:
     }
 
     //comparator => <
-    bool operator<(const Edge &other) const {
-        return this->wt < other.wt;
-    }
+    // bool operator<(const Edge &other) const {
+    //     return this->wt < other.wt;
+    // }
 };
 
 class Graph {
@@ -66,7 +66,11 @@ public:
     }
 
     void Kruskal() {
-        sort(edges.begin(), edges.end()); //O(ElogE)
+        sort(edges.begin(), edges.end(), [](const Edge& a, const Edge& b) {
+            return a.wt < b.wt;
+        });
+
+        // sort(edges.begin(), edges.end()); //O(ElogE)?
         int mstCost = 0;
         int count = 0;
 

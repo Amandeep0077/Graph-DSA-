@@ -1,4 +1,4 @@
- # 🌐 Graph-DSA-
+# 🌐 Graph-DSA-
 
 > 🚀 A clean, comprehensive collection of essential Graph Data Structures and Algorithms implemented from scratch in modern **C++**.
 
@@ -6,14 +6,8 @@
 
 ## 📑 Table of Contents
 
-- [📌 About the Project](#-about-the-project)
-- [📂 Repository Structure](#-repository-structure)
-- [🧠 Algorithms & Implementations](#-algorithms--implementations)
-- [⚡ Quick Start](#-quick-start)
-  - [Prerequisites](#prerequisites)
-  - [Clone & Build](#clone--build)
-- [🤝 Contributing](#-contributing)
-- [⭐ Show Your Support](#-show-your-support)
+- [About the Project](#-about-the-project)
+- [Repository Structure](#-repository-structure)
 
 ---
 
